@@ -86,7 +86,7 @@ const ProductUi = () => {
                             selectedProducts[0]._id === product._id
                           }
                           onChange={() => handleProductSelection(product)}
-                          name="product"
+         
                         />
                       ) : (
                         <input
@@ -96,7 +96,7 @@ const ProductUi = () => {
                               selectedProduct._id === product._id,
                           )}
                           onChange={() => handleProductSelection(product)}
-                          name="product"
+                 
                         />
                       )}
                     </div>
